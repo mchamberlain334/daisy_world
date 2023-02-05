@@ -14,3 +14,10 @@ from scipy.integrate import odeint
 
 #test edit 
 #second edit
+
+stef_boltz = 5.670374419e-8 # Stefan-Boltzman constant W⋅m−2⋅K−4
+d = 1.49e11 #distance of the Earth from the Sun, in m
+Lo = 3.846e26 #luminosity of the Sun, W
+Ab = 0.3 #Albedo
+emiss=0.996
+k_to_c = 273
